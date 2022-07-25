@@ -83,7 +83,10 @@ img {
 }
 
 .cap{
-    background: var(--first-background);
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--first-background);
     border-bottom: 1px solid #ECECEC;
     }
 .cap-logo:focus{
@@ -143,7 +146,6 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     width: 1600px;
-    height: 600px;
     margin-left: auto;
     margin-right: auto;
     background-color: #C4C4C4;
@@ -151,9 +153,9 @@ img {
     to right,
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)),url("../images/img-hw-04-bgr.jpg");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;}
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
 
 .decision-title{
     min-width: 696px;
@@ -292,8 +294,10 @@ margin-right: 30px;}
     color: var(--first-title-color);}
     
 
-.team{
-    background:var(--second-background);
+.team{width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:var(--second-background);
 }
 
 .team-subtitle{
@@ -319,7 +323,6 @@ margin-right: 30px;}
     
 .team-item:not(:last-child) {
         margin-right: 30px;
-         
     } 
 
 .team-suit{
@@ -329,7 +332,7 @@ margin-right: 30px;}
 
 .team-item{
     min-width: 270px;
-    background: #FFFFFF;
+    background-color:var(--first-background);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 } 
@@ -437,9 +440,13 @@ width: calc((100% - 60px) / 3);
 /*------basement-----*/
 
 .basement{
+    width: 1600px;
+    height: 252px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 60px;
     padding-bottom: 60px;
-    background: #2F303A;
+    background-color:  #2F303A;
 }
 
 
