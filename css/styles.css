@@ -326,6 +326,7 @@ margin-right: 30px;}
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--accent-color);
+    margin-bottom: 16px;
     }
 
 .team-items{
@@ -351,6 +352,29 @@ margin-right: 30px;}
 .team-subtitle{
     margin-bottom: 10px;
 }    
+
+.team-soc{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.team-soc-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill:#AFB1B8;
+    }
+    
+.team-soc-link:hover, 
+.team-soc-link:focus{
+    fill: var(--first-background);
+    background-color:var(--active-color)        
+    }
 
 .clients-title{
     margin-bottom: 50px;
