@@ -27,9 +27,20 @@
             </nav>    
             <ul class="cap-listtoo list">
                 <li class="cap-item">
-                    <a href="mailto:info@devstudio.com" class="cap-email link">info@devstudio.com</a></li>
+                    <a href="mailto:info@devstudio.com" class="cap-email link">
+                        <svg class="cap-email-icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                        <span>info@devstudio.com</span>
+                    </a>
+                </li>
                 <li class="cap-item">
-                    <a href="tel:+380961111111" class="cap-tel link">+38 096 111 11 11</a></li>
+                    <a href="tel:+380961111111" class="cap-tel link">
+                        <svg class="cap-tel-icon" width="10" height="16">
+                            <use href="./images/icons.svg#icon-tel"></use>
+                        </svg>
+                        <span>+38 096 111 11 11</span>
+                    </a></li>
             </ul>  
         </div>
     </header>
@@ -44,19 +55,39 @@
             <div class="container">
                 <h2  class="visually-hidden">Переваги</h2>
                 <ul class="features-items list">
-                    <li class="features-item icon-antena">
+                    <li class="features-item ">
+                        <div class="features-item-icon">
+                            <svg class="icon-antena" width="70" height="70">
+                                <use href="./images/icons.svg#icon-antena">                            </use>
+                            </svg>
+                        </div>
                         <h3  class="features-subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
                         <p class="features-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                     </li>
-                    <li class="features-item icon-clock">
+                    <li class="features-item ">
+                        <div class="features-item-icon">
+                            <svg class="icon-clock" width="70" height="70">
+                                <use href="./images/icons.svg#icon-clock">                            </use>
+                            </svg>
+                        </div>
                         <h3  class="features-subtitle">ПУНКТУАЛЬНІСТЬ</h3>
                         <p class="features-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                     </li>
-                    <li class="features-item icon-diagram">
+                    <li class="features-item ">
+                        <div class="features-item-icon">
+                            <svg class="icon-diagram" width="70" height="70">
+                                <use href="./images/icons.svg#icon-diagram">                            </use>
+                            </svg>
+                        </div>
                         <h3  class="features-subtitle">ПЛАНУВАННЯ</h3>
                         <p class="features-text">Так само консультація з широким активом значною мірою зумовлює.</p>
                     </li>
-                    <li class="features-item icon-astronaut">
+                    <li class="features-item ">
+                        <div class="features-item-icon">
+                            <svg class="icon-astronaut" width="70" height="70">
+                                <use href="./images/icons.svg#icon-astronaut">                            </use>
+                            </svg>
+                        </div>
                         <h3  class="features-subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                         <p class="features-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                     </li>
@@ -185,26 +216,43 @@
                 <ul class="clients-items list">
                     <li class="clients-item">
                         <a href="" class="clients-link link">
+                            <svg class="icon-Logo-yaco" width="106" height="60">
+                                <use href="./images/icons.svg#icon-Logo-yaco">                            </use>
+                            </svg>
                         </a>
                     </li>
                     <li class="clients-item">
                         <a href="" class="clients-link link">
+                            <svg class="icon-Logo-union" width="106" height="60">
+                                <use href="./images/icons.svg#icon-Logo-union">              </use>
+                            </svg>                        </a>
+                    </li>
+                    <li class="clients-item">
+                        <a href="" class="clients-link link">
+                            <svg class="icon-Logo-company" width="106" height="60">
+                                <use href="./images/icons.svg#icon-Logo-company">              </use>
+                            </svg>              
                         </a>
                     </li>
                     <li class="clients-item">
                         <a href="" class="clients-link link">
+                            <svg class="icon-Logo-foster-peters" width="106" height="60">
+                            <use href="./images/icons.svg#icon-Logo-foster-peters"></use>
+                            </svg>                         
                         </a>
                     </li>
                     <li class="clients-item">
                         <a href="" class="clients-link link">
+                            <svg class="icon-Logo-brand" width="106" height="60">
+                                <use href="./images/icons.svg#icon-Logo-brand"></use>
+                            </svg>                      
                         </a>
                     </li>
                     <li class="clients-item">
                         <a href="" class="clients-link link">
-                        </a>
-                    </li>
-                    <li class="clients-item">
-                        <a href="" class="clients-link link">
+                            <svg class="icon-Logo-tag-line" width="106" height="60">
+                                <use href="./images/icons.svg#icon-Logo-tag-line"></use>
+                            </svg>                  
                         </a>
                     </li>    
                 </ul>
@@ -213,35 +261,54 @@
     </main>
     <footer class="basement">
         <div class="container">
-            <a href="./index.html" class="basement-logo link"><span>Web</span>Studio</a>
-            <address>
-                <ul class="basement-items list">
-                    <li class="basement-item">
-                        <a href="https://goo.gl/maps/n9vAKkXrUeS69LuG7" class="basement-map link" target="_blank" rel="noopener noreferrer nofollow" >м. Київ, пр-т Лесі Українки, 26</a></li>
-                    <li class="basement-item">
-                        <a href="mailto:info@example.com" class="basement-email link">info@example.com</a></li>
-                    <li class="basement-item" >
-                        <a href="tel:+380991111111" class="basement-tel link">+38 099 111 11 11</a></li>
+            <div class="basement-contact">
+                <a href="./index.html" class="basement-logo link"><span>Web</span>Studio</a>
+                <address>
+                    <ul class="basement-items list">
+                        <li class="basement-item">
+                            <a href="https://goo.gl/maps/n9vAKkXrUeS69LuG7" class="basement-map link" target="_blank" rel="noopener noreferrer nofollow" >м. Київ, пр-т Лесі Українки, 26</a></li>
+                        <li class="basement-item">
+                            <a href="mailto:info@example.com" class="basement-email link">info@example.com</a></li>
+                        <li class="basement-item" >
+                            <a href="tel:+380991111111" class="basement-tel link">+38 099 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="basement-soc">
+                <h2 class="basement-soc-title">приєднуйтесь</h2>
+                <ul class="basement-soc-list list">
+                    <li class="basement-soc-item">
+                        <a href="" target="_blank" rel="noopener noreferrer nofollow" class="basement-soc-link link">
+                            <svg class="icon-instagram" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram">                            </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="basement-soc-item">
+                        <a href="" target="_blank" rel="noopener noreferrer nofollow" class="basement-soc-link link">
+                            <svg class="icon-twitter" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter">                            </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="basement-soc-item">
+                        <a href="" target="_blank" rel="noopener noreferrer nofollow" class="basement-soc-link link">
+                            <svg class="icon-facebook" width="20" height=20">
+                                <use href="./images/icons.svg#icon-facebook">                            </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="basement-soc-item">
+                        <a href="" target="_blank" rel="noopener noreferrer nofollow" class="basement-soc-link link">
+                            <svg class="icon-linkedin" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin">                            </use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-                <ul class="basement-soc list">
-                    <li class="basement-soc-item">
-                        <a href="" class="basement-soc-link link">
-                        </a>
-                    </li>
-                    <li class="basement-soc-item">
-                        <a href="" class="basement-soc-link link">
-                        </a>
-                    </li>
-                    <li class="basement-soc-item">
-                        <a href="" class="basement-soc-link link">
-                        </a>
-                    </li>
-                    <li class="basement-soc-item">
-                        <a href="" class="basement-soc-link link">
-                        </a>
-                    </li>
-                </ul>
-            </address>
+            </div>
+                
+            
         </div>
     </footer>
 </body>

@@ -97,7 +97,8 @@ img {
 }
 
 .cap-link{
-    display: block;
+    display: flex;
+    align-items: center;
     padding: 22px 6px;
     font-weight: 500;
     font-size: 14px;
@@ -127,6 +128,9 @@ img {
     letter-spacing: 0.02em;
     color:var(--accent-color);
 }
+.cap-tel{
+    display: flex;
+align-items: center;}
 
 .cap-email:focus,
 .cap-email:hover{
@@ -139,6 +143,19 @@ img {
     outline-color: var(--active-color);
 }
 .current{color: var(--active-color);}
+
+.cap-email-icon,
+.cap-tel-icon{
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.cap-email-icon:hover,
+.cap-email-icon:focus,
+.cap-tel-icon:hover,
+.cap-tel-icon:focus{
+    fill:#2196F3;
+}
 
 /*---------------decision-----*/
 
@@ -210,10 +227,11 @@ margin-right: 30px;}
 .features-item {width: 270px;
 }
 
-.features-item::before {
-    display: block;
-    content: "";
+.features-item-icon{
+    display: flex;
     height: 120px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-bottom: 30px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -221,20 +239,13 @@ margin-right: 30px;}
     background-color:#F5F4FA;
     border-radius: 4px;
 } 
-.icon-antena::before {
-    background-image: url("");
+.icon-antena,
+.icon-clock,
+.icon-diagram,
+.icon-astronaut{
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.icon-clock::before {
-    background-image: url("");
-}
-.icon-diagram::before {
-    background-image: url("");
-}
-.icon-astronaut::before {
-    background-image: url("");
-}
-
 
 .features-subtitle{
     margin-bottom: 10px;
@@ -357,13 +368,27 @@ margin-right: 30px;}
     display: flex;
 }
 .clients-item {
-    display: block;
+    
     width: 170px;
     height: 92px;
-    outline: 2px solid red;
-}
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;}
+
 .clients-item:not(:last-child) {
     margin-right: 30px;}
+
+.clients-link {
+        display:flex;
+        padding: 16px 32px;
+        fill: #AFB1B8;
+            }
+.clients-item:hover,
+.clients-item:focus{
+    border: 1px solid var(--active-color);}
+
+.clients-link:hover,:focus {    
+    fill:var(--active-color);
+    }
 
     /*-------portfolio------*/
 
@@ -449,8 +474,14 @@ width: calc((100% - 60px) / 3);
     background-color:  #2F303A;
 }
 
+.basement>.container{
+    display: flex;
+}
 
-
+.basement-contact{
+    display: block;
+    margin-right: 70px;
+}
 
 .basement-logo{
     display: flex;
@@ -482,7 +513,6 @@ width: calc((100% - 60px) / 3);
 
 .basement-map{
     display: block;
-
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -516,3 +546,40 @@ width: calc((100% - 60px) / 3);
 .basement-map:hover{
     color: var(--active-color);
     outline-color: var(--active-color);}
+
+.basement-soc{
+    display: block;
+}    
+.basement-soc-title{
+    padding-top: 12px;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--first-background);
+}
+.basement-soc-list{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.basement-soc-link{
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+fill:var(--first-background);
+}
+
+.basement-soc-link:hover, 
+.basement-soc-link:focus{
+    background-color:var(--active-color)
+    
+}
