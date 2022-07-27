@@ -376,6 +376,10 @@ margin-right: 30px;}
     background-color:var(--active-color)        
     }
 
+    .clients    {width: 1600px;
+        margin-left: auto;
+        margin-right: auto;}
+        
 .clients-title{
     margin-bottom: 50px;
     margin-right: auto;
