@@ -89,9 +89,7 @@ img {
     background-color: var(--first-background);
     border-bottom: 1px solid #ECECEC;
     }
-.cap-logo:focus{
-    outline-color: var(--active-color);
-}
+
 .cap-logo span{    
     color:var(--active-color);
 }
@@ -109,7 +107,6 @@ img {
 .cap-link:hover,
 .cap-link:focus{
     color: var(--active-color);
-    outline-color: var(--active-color);
 }
 
 
@@ -211,7 +208,6 @@ align-items: center;}
 .decision-btn:focus{
     color: #FFFFFF;
     background: #188CE8;
-    outline-color: var(--active-color);
 }
 
 .decision-btn,
@@ -563,17 +559,14 @@ width: calc((100% - 60px) / 3);
 .basement-email:focus,
 .basement-email:hover{
     color: var(--active-color);
-    outline-color: var(--active-color);
 }
 .basement-tel:focus,
 .basement-tel:hover{
     color: var(--active-color);
-    outline-color: var(--active-color);
 }
 .basement-map:focus,
 .basement-map:hover{
-    color: var(--active-color);
-    outline-color: var(--active-color);}
+    color: var(--active-color);}
 
 .basement-soc{
     display: block;
