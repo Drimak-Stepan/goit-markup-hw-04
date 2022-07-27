@@ -204,6 +204,7 @@ align-items: center;}
 
 .decision-btn:hover,
 .decision-btn:focus{
+    outline:none;
     color: #FFFFFF;
     background: #188CE8;
 }
@@ -530,7 +531,7 @@ width: calc((100% - 60px) / 3);
     color: #FFFFFF;
 }
 .basement-logo:focus{
-    outline-color: var(--active-color);
+    outline-color:var(--active-color);
 }
 .basement-logo span{    
     color:var(--active-color);
@@ -568,14 +569,17 @@ width: calc((100% - 60px) / 3);
 
 .basement-email:focus,
 .basement-email:hover{
+    outline:none;
     color: var(--active-color);
 }
 .basement-tel:focus,
 .basement-tel:hover{
+    outline:none;
     color: var(--active-color);
 }
 .basement-map:focus,
 .basement-map:hover{
+    outline:none;
     color: var(--active-color);}
 
 .basement-soc{
@@ -611,6 +615,8 @@ fill:var(--first-background);
 
 .basement-soc-link:hover, 
 .basement-soc-link:focus{
-    background-color:var(--active-color)
+    background-color:var(--active-color);
+    outline:none;
+    
     
 }
