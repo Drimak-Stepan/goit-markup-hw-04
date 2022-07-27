@@ -132,12 +132,10 @@ align-items: center;}
 .cap-email:focus,
 .cap-email:hover{
     color: var(--active-color);
-    outline-color: var(--active-color);
 }
 .cap-tel:focus,
 .cap-tel:hover{
     color: var(--active-color);
-    outline-color: var(--active-color);
 }
 .current{color: var(--active-color);}
 
@@ -214,6 +212,11 @@ align-items: center;}
 .filters-btn {
     cursor: pointer;
 }
+
+.features{width: 1600px;
+    margin-left: auto;
+    margin-right: auto;}
+
 .features-items{
     display: flex;
 }
@@ -255,6 +258,9 @@ margin-right: 30px;}
 }
 
 .examples {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 0;
 }
 
@@ -413,6 +419,10 @@ margin-right: 30px;}
     }
 
     /*-------portfolio------*/
+
+.filters{width: 1600px;
+        margin-left: auto;
+        margin-right: auto;}
 
 .filters-btn{
     display: block;
